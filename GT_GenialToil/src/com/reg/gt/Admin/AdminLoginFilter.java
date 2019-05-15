@@ -17,12 +17,12 @@ import javax.servlet.http.HttpSession;
 @WebFilter("/EmployeeSignUpServlet")
 public class AdminLoginFilter implements Filter {
 
-    /**
-     * Default constructor. 
-     */
-    public AdminLoginFilter() {
-        // TODO Auto-generated constructor stub
-    }
+	/**
+	 * Default constructor.
+	 */
+	public AdminLoginFilter() {
+		// TODO Auto-generated constructor stub
+	}
 
 	/**
 	 * @see Filter#destroy()
@@ -34,13 +34,13 @@ public class AdminLoginFilter implements Filter {
 	/**
 	 * @see Filter#doFilter(ServletRequest, ServletResponse, FilterChain)
 	 */
-	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException {
 		HttpServletRequest req = (HttpServletRequest) request;
 		HttpSession ses = req.getSession(false);
-		if(ses==null){
+		if (ses == null) {
 			request.getRequestDispatcher("AdminLogin.html").forward(request, response);
-		}
-		else {
+		} else {
 			chain.doFilter(request, response);
 		}
 	}

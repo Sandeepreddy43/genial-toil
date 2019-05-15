@@ -30,6 +30,7 @@ public class EmployeeBean {
 	public void setempdesignation(String emp_designation) {
 		this.emp_designation = emp_designation;
 	}
+
 	public String getempMail() {
 		return emp_mail;
 	}

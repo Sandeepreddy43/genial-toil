@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class NewPasswordServlet
@@ -24,7 +25,6 @@ public class NewPasswordServlet extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
@@ -33,7 +33,10 @@ public class NewPasswordServlet extends HttpServlet {
 		String confnpw=Base64.getEncoder().encodeToString(request.getParameter("confirmPw").getBytes()); 
 		if(npwd.equals(confnpw)){
 			try {
-				DBCRUDOperations.updatedPassword(npwd);
+				HttpSession ses = request.getSession();
+				String id=(String) ses.getAttribute("id");
+				System.out.println("****"+id);
+				AdminCRUDOperations.updatedPassword(id, npwd);
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
