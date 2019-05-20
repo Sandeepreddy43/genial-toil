@@ -1,0 +1,202 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: lightseagreen;
+}
+.registrationblock {
+	height:600px;
+	width: 350px;
+	float:right;
+	position: fixed;
+	margin: 30px 50px 10px 750px;
+	border-radius:10px;
+	border:0px solid black;
+	background-color: #66ffb3;
+}
+
+.imgblock{
+	height:350px;
+	width: 500px;
+	float:left;
+	margin-top: 130px;
+	margin-left: 120px;
+	background-color: lightseagreen;
+	border-radius:10px;
+	border:0px solid black;
+}
+.registrationblock select{
+	width: 270px;
+	height:40px;
+	margin: 0px 0px 6px 40px;
+	padding-left: 10px;
+	color:gray;
+	background: #fafafa;
+	border: none;
+	border:0px solid gray;
+	border-radius: 5px;
+	
+}
+.registrationblock a{
+	width:65px;
+	height:28px;
+	margin: -44px 0px 6px 243px;
+	padding-top:9px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	font-family:inherit;
+	font-size:14px;
+	background: lightseagreen;
+	border-radius:5px;
+	border: 0px solid #3897F0;
+}
+.registrationblock input{
+	width: 260px;
+	height:40px;
+	margin: 0px 0px 6px 40px;
+	padding-left: 10px;
+	color:black;
+	background: #fafafa;
+	border: none;
+	border:0px solid gray;
+	border-radius: 5px;
+	
+}
+.registrationblock button{
+	width:270px;
+	height:30px;
+	margin:16px 0px 6px 40px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	font-family:inherit;
+	font-size:16px;
+	background: lightseagreen;
+	border-radius:5px;
+	border: 0px solid #3897F0;
+	}
+.registrationblock h1{
+	margin:30px 0px 30px 50px;
+	font-size: 24px;
+	font-family:inherit,Roboto, Helvetica, Arial, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	color: lightseagreen;
+	cursor: default;
+	border: 0px solid grey;
+	}
+	
+.registrationblock h4{
+	padding:0px 40px 0px 50px;
+	margin:10px 100px;
+	font-family:monospace;
+	font-size:16px;
+	color: grey;
+	cursor: default;
+	border: 0px solid white
+	}
+.registrationblock h5{
+	padding-left:50px;
+	padding-right:10px;
+	margin:10px 0px 0px 0px;
+	font-family:monospace;
+	font-size:16px;
+	color: grey;
+	cursor: default;
+	border: 0px solid black;
+	}
+.registrationblock h6{
+	padding-left:100px;
+	padding-right:10px;
+	margin:16px 0px 0px 0px;
+	font-family:monospace;
+	font-size:16px;
+	color: grey;
+	cursor: default;
+	border: 0px solid black;
+	}
+
+.forgotBlock button{
+	width:270px;
+	height:30px;
+	margin:26px 0px 6px 10px;
+	
+	text-align: center;
+	cursor: pointer;
+	color: lightseagreen;
+	font-family:inherit;
+	font-size:16px;
+	background: lightseagreen;
+	border-radius:5px;
+	border: 0px solid #3897F0;
+}
+.forgotBlock h5{
+	padding-left:50px;
+	padding-right:10px;
+	margin:16px 0px 0px 0px;
+	font-family:monospace;
+	font-size:16px;
+	color: grey;
+	cursor: default;
+	border: 0px solid black;
+}
+
+.block1{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    border-radius: 24%;
+    background-color: #66ffb3
+}
+.block2{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    border-radius: 60px;
+    margin: 50px 50px;
+    background-color: #00ff80
+}
+.block3{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    border-radius: 50%;
+    margin: 50px 50px;
+    background-color: lightseagreen
+}
+.block4{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    border-radius: 20px;
+    margin: 50px 50px;
+    background-color: teal
+}
+.block4 h1{
+    width: 100px;
+    height: 100px;
+    padding: 0%;
+    margin: -49px -2px;
+    font-size: 138px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.block4 h2{
+    width: 100px;
+    height: 100px;
+    padding: 0%;
+    margin: -58px 0px 0px 37px;
+    font-size: 138px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: ivory;
+}
+.block4 h4{
+    width: 120px;
+    height: 100px;
+    padding: 0%;
+    margin: 80px 0px 0px 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: ivory;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Material Receipt Note - Vendor Details</title>
+<link rel="Stylesheet" type="text/css" href="Receipt.css">
+</head>
+<body>
+<div class="imgblock">
+		 <div class="block1">
+        <div class="block2">
+            <div class="block3">
+                <div class="block4"><h1>G</h1><h2>T</h2><h4>Genial Toil</h4></div>
+            </div>
+        </div>
+    </div>
+	 </div>
+	<div class="registrationblock">
+		<h1>Purchase Order Details</h1>
+				
+		<Form action="OrderServlet" method="post">
+			<input type="text" name="site_name" placeholder="Site Name" required="required">
+			<input type="text" name="pr_des" placeholder="PR Description" required="required">
+			<input type="date" name="pr_date" title="PR Date" required="required">
+			<input type="text" name="remarks" placeholder="Remarks (if any)" title="PR Remarks" style="height: 50px; display:block; padding: 0px 0px 60px 10px;;" >
+			<button type="submit">Confirm</button>
+		</Form>	
+	</div>
+</body>
+</html>

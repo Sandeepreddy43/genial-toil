@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Registration Form</title>
+<link rel="Stylesheet" type="text/css" href="EmployeeSignup.css">
+</head>
+<body>
+
+	<div class="imgblock">
+		<img src="signup.png">
+	 </div>
+	<div class="registrationblock">
+		<h1>Genial Toil</h1>
+		<h4>Register Your Employees Here!</h4>
+		
+		<Form action="EmployeeSignUpServlet" method="post">
+
+			<input type="text" name="empId" placeholder="Employee Id"> 
+			<input type="text" name="empName" placeholder="Employee Name"> 
+			<input type="text" name="empDes" placeholder="Employee Designation">
+			<input type="email" name="empMail" placeholder="Employee Mail Id">
+			<input type="password" name="empPass" placeholder="New Password">
+			<input type="password" name="confirmPass" placeholder="confirm Password">
+			<button type="submit">Register</button>
+			
+			<h5>By registering your employees, you agree to Sign-in Policy!! </h5>
+
+		</Form>
+	</div>
+	<div class="forgotBlock">
+		<h5>If any of Your Employees forgot their Password! </h5>
+		<a href="UpdatePassword.html"><button>Update Password</button></a>
+	</div>
+</body>
+</html>

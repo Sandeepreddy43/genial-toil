@@ -1,0 +1,232 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: lightseagreen;
+}
+.registrationblock {
+	height:600px;
+	width: 1150px;
+	float:right;
+	position: relative;
+	margin: -460px 100px 0px 100px;
+	border-radius:10px;
+	border:0px solid black;
+    z-index: 1;
+}
+
+.imgblock{
+	height:350px;
+	width: 500px;
+	float:left;
+	margin-top: 130px;
+    margin-left: 500px;
+    opacity: 0.4;
+	background-color: lightseagreen;
+	border-radius:10px;
+	border:0px solid black;
+}
+.registrationblock a{
+	width: 200px;
+	height:28px;
+	text-align: center;
+	cursor: pointer;
+	color: navy;
+	font-family:inherit;
+	font-size:16px;
+	background: white;
+	border-radius:5px;
+	border: 01px solid #3897F0;
+}
+.registrationblock button{
+	width: 200px;
+	height:40px;
+	text-align: center;
+	cursor: pointer;
+	color: navy;
+	font-family:inherit;
+	font-size:16px;
+	background: white;
+	border-radius:10px;
+	border: 01px solid #3897F0;
+	}
+.registrationblock h1{
+	text-align: center;
+	font-family:inherit,Roboto, Helvetica, Arial, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0px;
+    color: whitesmoke;
+	cursor: default;
+	border: 0px solid grey;
+	}
+	
+.registrationblock h3{
+    padding:0px 0px 0px 0px;
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 24px;
+	font-family:monospace;
+	color: whitesmoke;
+	cursor: default;
+	border: 0px solid white
+	}
+.registrationblock h5{
+	padding-left:10px;
+	padding-right:10px;
+	margin:10px 0px 0px 0px;
+	font-family:monospace;
+	font-size:16px;
+	color: grey;
+	cursor: default;
+	border: 0px solid black;
+	}
+.registrationblock h6{
+	padding-left:100px;
+	padding-right:10px;
+	margin:16px 0px 0px 0px;
+	font-family:monospace;
+	font-size:16px;
+	color: grey;
+	cursor: default;
+	border: 0px solid black;
+	}
+.block1{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    border-radius: 24%;
+    background-color: #66ffb3
+}
+.block2{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    border-radius: 60px;
+    margin: 50px 50px;
+    background-color: #00ff80
+}
+.block3{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    border-radius: 50%;
+    margin: 50px 50px;
+    background-color: lightseagreen
+}
+.block4{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    border-radius: 20px;
+    margin: 50px 50px;
+    background-color: teal
+}
+.block4 h1{
+    width: 100px;
+    height: 100px;
+    padding: 0%;
+    margin: -49px -2px;
+    font-size: 138px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.block4 h2{
+    width: 100px;
+    height: 100px;
+    padding: 0%;
+    margin: -58px 0px 0px 37px;
+    font-size: 138px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: ivory;
+}
+.block4 h4{
+    width: 120px;
+    height: 100px;
+    padding: 0%;
+    margin: 80px 0px 0px 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: ivory;
+}
+
+th{
+    
+    margin-top: 200px;
+    margin-left: 100px;
+    height:43px;    
+	width:max-content;
+	color: navy;
+	font-size:20px;
+    background:inherit;
+    border: 0.5px solid gray
+}
+tr{
+	height:33px;
+	width:max-content;
+	padding-left: 2px;
+	background-color:inherit;
+	border: 01px solid white;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 500;
+}
+td{
+	border: 0.5px solid gray;
+	padding-left: 6px;
+}
+h2{
+    padding:0px 0px 0px 0px;
+    margin: 6px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: white
+}
+#sNo{
+    width: 50px;
+    }
+#mName{
+    width: 260px;
+    }
+.ab{
+        width: 180px;
+        }
+.abc{
+width: 120px;
+}
+.tableBlock{
+    /* height:600px; */
+    width: 1150px;
+    margin-top: 0px;
+    float: left;
+    background: transparent;
+	border-radius:10px;
+	border:0px solid white;
+}
+.showDataName{
+	width: 200px;
+	height:28px;
+    margin: 0px 0px 2px 0px;
+	padding-left: 10px;
+	padding-top:2px;
+	font-size:20px;
+	font-weight: bold;
+	color:navy;
+	float: left;
+	border:0px solid gray;
+	border-radius: 5px;
+	
+}
+.showDataValue{
+	width: 800px;
+	height:30px;
+    margin: 0px 0px 2px 10px;
+	padding-left: 10px;
+	padding-top:4px;
+font-size:20px;
+	font-weight: bold;
+	color:black;
+	float:left;
+	background: transparent;
+	border:0px solid wheat;
+	border-radius: 5px;
+	
+}
